@@ -18,3 +18,6 @@ namespace CSharpTutorials
         }
     }
 }
+
+
+// Note : Every line in The C# code must end with thw semicolon (;).
