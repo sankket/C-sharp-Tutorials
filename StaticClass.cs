@@ -18,3 +18,4 @@ public static class Calculator
     }
 }
 
+// static class can be access directly using className.memberName.
