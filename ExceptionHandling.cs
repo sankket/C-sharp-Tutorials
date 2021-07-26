@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // The code which you think might throw an error should be placed into the try block.
         try
         {
             Console.WriteLine("Enter a number: ");
@@ -13,10 +14,12 @@ class Program
 
             Console.WriteLine($"Squre of {num} is {num * num}");
         }
+        // if the exception occurs then catch block will be exwcuted.
         catch
         {
             Console.Write("Error occurred.");
         }
+        // finally block a;ways executes.
         finally
         {
             Console.Write("Re-try with a different number.");
