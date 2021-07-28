@@ -22,7 +22,7 @@ class Program
         // finally block a;ways executes.
         finally
         {
-            Console.Write("Re-try with a different number.");
+            Console.Write("Try again with a different number.");
         }
     }
 }
