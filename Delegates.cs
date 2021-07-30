@@ -15,3 +15,9 @@ static void MethodA(string message)
 {
     Console.WriteLine(message);
 }
+
+
+// Invoke Delegates.
+del.Invoke("Hello World!");
+// or 
+del("Hello World!");
