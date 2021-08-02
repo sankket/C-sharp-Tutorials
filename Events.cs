@@ -9,3 +9,11 @@ public class ProcessBusinessLogic
     public event Notify ProcessCompleted; // event
 
 }
+
+// Rasing an event.
+protected virtual void OnProcessCompleted() //protected virtual method
+    {
+        //if ProcessCompleted is not null then call delegate
+        ProcessCompleted?.Invoke(); 
+    }
+}
