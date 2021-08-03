@@ -29,3 +29,4 @@ public class Program
     }
 }
 
+// delegate expects a return type of small (base class) but we can still assign Method1 that returns Big (derived class) and also Method2 that has same signature as delegate expects.
