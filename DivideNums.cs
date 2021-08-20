@@ -7,3 +7,5 @@ class DivideNums {
     Console.WriteLine(res);
   }
 }
+
+// Code depicts simple division method.
