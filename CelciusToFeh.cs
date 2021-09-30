@@ -1,5 +1,5 @@
 using System;
-public class Exercise14
+public class DegreeToFeh
 {
    public static void Main( )
     {
@@ -10,3 +10,5 @@ public class Exercise14
         Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
     }
 }
+
+//program for degree to fehrenheit conversion.
