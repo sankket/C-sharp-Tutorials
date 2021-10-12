@@ -1,5 +1,5 @@
 using System;
-public class Exercise11
+public class AgeCalci
 {
   public static void Main()
   {
