@@ -3,7 +3,7 @@ public class DegreeToFeh
 {
    public static void Main( )
     {
-        Console.Write("Enter the amount of Celsius: "); 
+        Console.Write("Enter the Number to calculate Celsius: "); 
         int celsius = Convert.ToInt32(Console.ReadLine());
  
         Console.WriteLine("Kelvin = {0}", celsius + 273);
