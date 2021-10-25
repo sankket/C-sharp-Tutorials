@@ -12,3 +12,4 @@ public class CheckInt {
            Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
         }
 }
+//enter two number and the code will check if the entered number is Positive or Negetive.
