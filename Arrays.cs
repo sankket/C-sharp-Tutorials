@@ -5,4 +5,4 @@ var[] evenNums = new int[5]{ 2, 4, 6, 8, 10 };
 
 Console.WriteLine(evenNums[1]);
 
-string[] cities = new string[3]{ "Aurangabad", "Pune", "Banglore", "Mumbai" };
+string[] cities = new string[3]{ "Aurangabad", "Pune", "Banglore", "Nagpur" };
